@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environnements virtuels
+venv/
+env/
+.env
+*.env
+
+# Sessions WhatsApp (données locales sensibles)
+sessions/whatsapp/*
+!sessions/whatsapp/.gitkeep
+
+# Résultats et photos (données locales)
+results/*.json
+photos/*.jpg
+photos/*.png
+photos/*.jpeg
+photos/*.webp
+
+# Playwright
+playwright-report/
+test-results/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
